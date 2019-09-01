@@ -3,6 +3,7 @@ MCU=attiny85
 SOURCES=main.c
 
 PROGRAMMER=usbasp
+PORT=-Pusb
 BAUD=-B115200
 
 #Ab hier nichts verändern
